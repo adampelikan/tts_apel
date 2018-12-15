@@ -1,10 +1,7 @@
 const express = require('express');
 const fs = require('fs');
 const textToSpeech = require('@google-cloud/text-to-speech');
-const client = new textToSpeech.TextToSpeechClient({
-  projectId: 'seventh-fact-225623',
-  keyFilename: 'g_auth/seventh-fact-225623-cfa3c13e9da3.json'
-});
+const client = new textToSpeech.TextToSpeechClient();
 
 
 const app = express();
