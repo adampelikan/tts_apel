@@ -9,6 +9,7 @@
   "author": "Adam Pelikán",
   "license": "",
   "dependencies": {
+    "@google-cloud/storage": "^2.3.3",
     "@google-cloud/text-to-speech": "^0.4.0",
     "express": "^4.16.4"
   }
