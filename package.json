@@ -1,0 +1,16 @@
+{
+  "name": "tts_apel",
+  "version": "1.0.0",
+  "description": "Simple local node.js TTS server providing a webservice. After receiving a GET request with the string it calls the google TTS server and downloads the MP3 fith transformed audio and stores it on the hdd. File is available to be played by some player later on.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "PEL",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/text-to-speech": "^0.4.0",
+    "audio-play": "^2.2.1",
+    "express": "^4.16.4"
+  }
+}
