@@ -1,7 +1,7 @@
 # Don't track content of these folders
 #node_modules/
 g_auth/
-output.mp
+output.mp3
 
 # Compiled source #
 ###################
