@@ -6,6 +6,8 @@ const client = new textToSpeech.TextToSpeechClient({
   keyFilename: 'g_auth/seventh-fact-225623-cfa3c13e9da3.json'
 });
 
+const { createAudio } = require('node-mp3-player')
+const Audio = createAudio();
 
 const app = express();
 
@@ -37,6 +39,12 @@ app.get('/TTS', function (req, res) {
 			console.log('Audio content written to file: output.mp3');
 		  });
 		});
+
+		(async () => {
+		  const myFile = await Audio(`output.mp3`)
+		  await myFile.play()
+		})()
+
 		res.send('TTS output file generated');
 
 })

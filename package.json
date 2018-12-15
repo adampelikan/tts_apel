@@ -10,6 +10,7 @@
   "license": "",
   "dependencies": {
     "@google-cloud/text-to-speech": "^0.4.0",
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "node-mp3-player": "^1.0.3"
   }
 }
