@@ -37,6 +37,7 @@ app.get('/TTS', function (req, res) {
 			console.log('Audio content written to file: output.mp3');
 		  });
 		});
+		res.send('TTS output file generated');
 
 })
 
