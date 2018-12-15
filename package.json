@@ -6,11 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "PEL",
-  "license": "ISC",
+  "author": "Adam Pelikán",
+  "license": "",
   "dependencies": {
     "@google-cloud/text-to-speech": "^0.4.0",
-    "audio-play": "^2.2.1",
     "express": "^4.16.4"
   }
 }
