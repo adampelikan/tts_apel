@@ -41,7 +41,7 @@ app.get('/TTS', function (req, res) {
 		});
 
 		(async () => {
-		  await new Promise(done => setTimeout(done, 1000));
+		  await new Promise(done => setTimeout(done, 500));
 		  const myFile = await Audio(`output.mp3`)
 		  await myFile.volume(0.1)
 		  await myFile.play()
