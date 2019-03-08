@@ -1,2 +1,3 @@
 # tts_apel
-Simple local node.js TTS server providing a webservice. After receiving a GET request with the string it calls the google TTS server and downloads the MP3 fith transformed audio and stores it on the hdd. File is available to be played by some player later on.
+Simple local node.js TTS server providing a webservice. After receiving a GET request with the string it calls the google TTS server and downloads the MP3 fith transformed audio and stores it on the hdd. File with voice is played (using a player that actually works only on linux) so that the user can hear the voice from speakers. 
+This tool is grat for home-automation projects - e.g. when it starts to rain and you have roof windows opened, some external logic (home automation platform) can send the HTTP get request to computer (e.g. raspberry pi) connected to home audio and using this tool user will get the audio notification about risk of water on the floor under the roof windwos
